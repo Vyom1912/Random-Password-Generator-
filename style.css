@@ -72,6 +72,17 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
 @media only screen and (max-width: 500px) {
   .container {
     max-width: 330px;
@@ -83,9 +94,11 @@ body {
     font-size: 17px;
     padding: 4px 0;
   }
-
   .container button {
     font-size: 18px;
     padding: 10px 15px !important;
+  }
+  .footer {
+    width: 95%;
   }
 }
